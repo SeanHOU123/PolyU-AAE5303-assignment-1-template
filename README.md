@@ -32,7 +32,9 @@ _[Choose one:]_
 ### 2.1 Steps Taken
 
 Describe briefly how you created/activated your Python environment:
+
 Environment Setup Methodology:
+  
   This project uses a Python virtual environment (venv) to isolate dependencies. The setup follows these steps:
   1. Virtual Environment Creation: Execute python3 -m venv .venv in the project root to create an isolated environment directory .venv.
   2. Environment Activation: Execute source .venv/bin/activate to activate the environment, ensuring subsequent commands use the Python interpreter and packages within this environment.
@@ -253,6 +255,7 @@ _[Project README.md troubleshooting section and ROS 2 Humble official documentat
 ### Issue 2: [Need to source workspace setup for ROS 2 package execution]
 
 **Error message:**
+
 _[When trying to run ROS 2 nodes directly, commands like ros2 run env_check_pkg talker may fail if the workspace is not properly sourced.]_
 
 **Cause / diagnosis:**  
@@ -334,10 +337,10 @@ Short but thoughtful:
 
 **Your reflection:**
 
-_[- Configuring robotics environments requires careful attention to environment variables and dependency management. I learned that ROS 2 requires explicit sourcing of setup scripts in each terminal session, which differs from typical Python virtual environments.
-- What surprised me was how a missing source command could cause complete test failure even when ROS 2 was properly installed, highlighting the importance of understanding environment setup beyond just installation.
-- Next time, I would check environment variables first and document the exact sequence of source commands needed for reproducibility. 
-- After working through these issues, I feel more confident in debugging ROS/Python problems, as I now understand how ROS 2's workspace and base installation interact.]_
+  - Configuring robotics environments requires careful attention to environment variables and dependency management. I learned that ROS 2 requires explicit sourcing of setup scripts in each terminal session, which differs from typical        Python virtual environments.
+  - What surprised me was how a missing source command could cause complete test failure even when ROS 2 was properly installed, highlighting the importance of understanding environment setup beyond just installation.
+  - Next time, I would check environment variables first and document the exact sequence of source commands needed for reproducibility. 
+  - After working through these issues, I feel more confident in debugging ROS/Python problems, as I now understand how ROS 2's workspace and base installation interact.]
 
 ---
 

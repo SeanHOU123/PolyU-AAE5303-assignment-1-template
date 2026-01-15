@@ -8,20 +8,20 @@
 ## 1. System Information
 
 **Laptop model:**  
-_[Your laptop model, e.g., Dell XPS 15, MacBook Pro M1, etc.]_
+_[Legion Y9000P]_
 
 **CPU / RAM:**  
-_[e.g., Intel Core i7-11800H, 16GB RAM]_
+_[Intel(R) Core(TM) Ultra 9 275HX, 32GB RAM]_
 
 **Host OS:**  
-_[Windows 11 / macOS / Ubuntu 22.04]_
+_[Windows 11]_
 
 **Linux/ROS environment type:**  
 _[Choose one:]_
 - [ ] Dual-boot Ubuntu
 - [ ] WSL2 Ubuntu
 - [ ] Ubuntu in VM (UTM/VirtualBox/VMware/Parallels)
-- [ ] Docker container
+- [X] Docker container
 - [ ] Lab PC
 - [ ] Remote Linux server
 
